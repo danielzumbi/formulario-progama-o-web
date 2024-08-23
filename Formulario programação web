@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>Untitled Document</title>
+        <link rel="stylesheet" href="estilo.css" type="text/css" />
+    </head>
+    <body>
+        <form action="" method="post" class="modelo1">
+           <div class=borda><h1 class="branco">Formulario de Contato<br/></h1>
+                <span class="titulos2"><h4 class="branco">Preencha todos os campos.</span></h4>
+            <div>
+                    <p><strong class=branco>Nome:</strong>
+                <input id="nome" type="test" name="nome" placeholder="Nome Completo" class="entrada"/>
+                        </div></p>
+                        <div>
+                        <p><strong class=branco>Email:</strong>   
+                        <input id="email" type"email" name="email" placeholder="E-mail" Válido." class="entrada" />
+                        </div></p>
+                       <p><strong class=branco>Assunto:</strong>
+                        <select name="opçoes" class="entrada">
+                            <option value=""></option>
+                            <option value"Duvidas do produto">Duvidas do produto</option>
+                            <option value"Atraso na entrega">Atraso na entrega</option>
+                        </select>
+                        <div></p>
+                            <p><strong class=branco>Mensagem</strong>
+                            <textarea id="mensagem" name="mensagem" placeholder="Sua mensagem" class="entrada"></textarea>
+                        </div></p>
+                        <div>
+                            <div class="rotulos">&nbsp;</div>
+                            <input type="button" value="Enviar" class="botao"/>
+                        </div>
+                    </div>
+        </form>
+    </body>
+    <style>
+        .borda
+        { width:400px;
+            height: 350px;
+            background-color:rgb(85, 28, 2);
+            border-radius: 50px;
+            box-shedol: 10px 20px 20px #cccccc;
+            text-align:center;
+        }
+        .branco{
+            color:white;
+        }
+    
+    </style>
+</html>
